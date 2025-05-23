@@ -1,0 +1,9 @@
+POST http://localhost:8080 HTTP/1.1
+content-type: application/json
+
+{
+	"user": "mcob",
+	"command": "book-job",
+	"job_id": 9,
+	"job_name": "MC_JOB_03"
+}
